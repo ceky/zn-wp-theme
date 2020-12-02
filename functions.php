@@ -50,8 +50,9 @@ if ( ! function_exists( 'zilele_nordului_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'primary' => 'Main Menu',
+				'main_menu' => 'Main Menu',
 				'footer_menu' => 'Footer Menu',
+				'top_menu' => 'Top Menu'
 			)
 		);
 

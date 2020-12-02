@@ -38,8 +38,15 @@
 			<?php
 			wp_nav_menu(
 				array(
-					'theme_location' => 'primary',
-					'menu_id'        => 'primary-menu',
+					'theme_location' => 'top_menu',
+					'menu_id'        => 'top_menu',
+				)
+			);
+
+			wp_nav_menu(
+				array(
+					'theme_location' => 'main_menu',
+					'menu_id'        => 'main_menu',
 				)
 			);
 			?>
