@@ -1,6 +1,7 @@
 .main-navigation {
 	display: block;
 	width: 100%;
+	margin-top: 1rem;
 
 	ul {
 		display: none;
@@ -60,6 +61,13 @@
 	a {
 		display: block;
 		text-decoration: none;
+		color: white;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__link-hover;
+		}
 	}
 
 	.current_page_item > a,
@@ -83,6 +91,7 @@
 
 	.main-navigation ul {
 		display: flex;
+		justify-content: space-evenly;
 	}
 }
 

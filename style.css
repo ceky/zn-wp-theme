@@ -503,7 +503,6 @@ object {
 
 img {
 	height: auto;
-	max-width: 100%;
 }
 
 figure {
@@ -626,6 +625,7 @@ textarea {
 .main-navigation {
 	display: block;
 	width: 100%;
+	margin-top: 1rem;
 }
 
 .main-navigation ul {
@@ -671,6 +671,11 @@ textarea {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: white;
+}
+
+.main-navigation a:hover, .main-navigation a:focus, .main-navigation a:active {
+	color: #34ae72;
 }
 
 /* Small menu. */
@@ -685,6 +690,7 @@ textarea {
 	}
 	.main-navigation ul {
 		display: flex;
+		justify-content: space-evenly;
 	}
 }
 
@@ -713,12 +719,40 @@ textarea {
 	flex: 1 0 50%;
 }
 
-/* Footer
+/* Header and Footer
 --------------------------------------------- */
+.site-header {
+	background: #292b30;
+	color: white;
+	padding: 1rem;
+	display: flex;
+	overflow: hidden;
+}
+
+.site-header .site-branding {
+	display: flex;
+}
+
+.site-header .site-branding .zn-info-header {
+	margin: 0.8rem 1rem;
+	min-width: 106px;
+}
+
+.site-header .site-branding .zn-info-header a {
+	color: white;
+}
+
+.site-header .site-branding .zn-info-header a:hover, .site-header .site-branding .zn-info-header a:focus, .site-header .site-branding .zn-info-header a:active {
+	color: #34ae72;
+}
+
+.site-header .site-branding .zn-info-header p {
+	margin: 0;
+}
+
 .site-footer {
 	background: #292b30;
 	color: white;
-	justify-content: center;
 	padding: 1rem;
 }
 

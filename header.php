@@ -32,7 +32,12 @@
 			<?php
 			the_custom_logo();
 			?>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>				
+			<h5 class="zn-info-header">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<p>12-15 August 2021</p>
+					<p>Județul Botoșani</p>
+				</a>
+			</h5>				
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
