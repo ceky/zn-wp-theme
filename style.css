@@ -518,15 +518,12 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
-}
-
-a:visited {
-	color: #800080;
+	color: black;
+	text-decoration: none;
 }
 
 a:hover, a:focus, a:active {
-	color: #191970;
+	color: #34ae72;
 }
 
 a:focus {
@@ -714,6 +711,63 @@ textarea {
 .post-navigation .nav-next {
 	text-align: end;
 	flex: 1 0 50%;
+}
+
+/* Footer
+--------------------------------------------- */
+.site-footer {
+	background: #292b30;
+	color: white;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.site-footer .social-media-container {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	margin-bottom: 1rem;
+	padding: 0;
+}
+
+.site-footer .social-media-container li {
+	margin-right: 1rem;
+}
+
+.site-footer .social-media-container li a {
+	color: white;
+}
+
+.site-footer .social-media-container li a:hover, .site-footer .social-media-container li a:focus, .site-footer .social-media-container li a:active {
+	color: #34ae72;
+}
+
+.site-footer #top_menu {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	margin-bottom: 1rem;
+	padding: 0;
+}
+
+.site-footer #top_menu li {
+	margin-right: 1rem;
+}
+
+.site-footer #top_menu li a {
+	color: white;
+}
+
+.site-footer #top_menu li a:hover, .site-footer #top_menu li a:focus, .site-footer #top_menu li a:active {
+	color: #34ae72;
+}
+
+.site-footer .copyright {
+	margin-bottom: 0.5rem;
+	text-align: center;
+	font-size: 0.7rem;
 }
 
 /* Posts and pages
