@@ -1,0 +1,30 @@
+.site-header {
+    background: $color__grey1;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    overflow: hidden;
+
+    .site-branding {
+        display: flex;
+
+        .zn-info-header {
+            margin: 0.8rem 1rem;
+            min-width: 106px;   
+            
+            a {
+                color: white;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: $color__link-hover;
+                }
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    };
+}
