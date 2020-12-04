@@ -21,3 +21,24 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+.site-main {
+	margin: 1rem;
+
+	.muzica-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+		p {
+			margin: 0.2rem 0;
+		}
+
+		.title {
+			font-weight: bold;
+		}
+		
+		.attachment-post-thumbnail {
+			width: 300px;		
+		}
+	}
+}

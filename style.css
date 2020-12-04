@@ -830,6 +830,27 @@ textarea {
 	margin: 0 0 1.5em;
 }
 
+.site-main {
+	margin: 1rem;
+}
+
+.site-main .muzica-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.site-main .muzica-container p {
+	margin: 0.2rem 0;
+}
+
+.site-main .muzica-container .title {
+	font-weight: bold;
+}
+
+.site-main .muzica-container .attachment-post-thumbnail {
+	width: 300px;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
