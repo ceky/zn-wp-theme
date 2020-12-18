@@ -29,16 +29,34 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
-		p {
-			margin: 0.2rem 0;
-		}
+		.muzica-item {
+			background-color: #f6f4f4;
+			width: fit-content;			
+			margin-bottom: 2rem;
 
-		.title {
-			font-weight: bold;
-		}
-		
-		.attachment-post-thumbnail {
-			width: 300px;		
-		}
+			p {
+				margin: 0;
+			}
+	
+			.title {
+				font-weight: bold;
+				font-size: 1.6rem;
+			}
+	
+			.date {
+				color: #666666;
+				font-weight: bold;
+			}
+
+			.location {
+				font-size: 0.8rem;
+				margin-bottom: 0.5rem;
+				color: #666666;
+			}
+			
+			.attachment-post-thumbnail {
+				width: 300px;		
+			}
+		}		
 	}
 }
