@@ -23,13 +23,13 @@
 
 		<ul class="social-media-container">
 			<li>
-				<a href="https://www.facebook.com/ZileleNordului" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+				<a href="https://www.facebook.com/ZileleNordului" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
 			</li>
 			<li>
-				<a href="https://www.instagram.com/zilelenorduluioficial/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				<a href="https://www.instagram.com/zilelenorduluioficial/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
 			</li>
 			<li>
-				<a href="https://www.youtube.com/channel/UC5OGPMLPCMnX1kgFMdgpsQQ" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+				<a href="https://www.youtube.com/channel/UC5OGPMLPCMnX1kgFMdgpsQQ" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
 			</li>
 		</ul>
 		
@@ -39,7 +39,7 @@
 
 <?php wp_footer(); ?>
 
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
 </body>
 </html>

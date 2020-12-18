@@ -834,6 +834,11 @@ textarea {
 	margin: 1rem;
 }
 
+.site-main .page-title {
+	text-transform: uppercase;
+	border-bottom: 2px solid black;
+}
+
 .site-main .muzica-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -843,6 +848,12 @@ textarea {
 	background-color: #f6f4f4;
 	width: fit-content;
 	margin-bottom: 2rem;
+	padding: 0.5rem;
+	border-radius: 7px;
+}
+
+.site-main .muzica-container .muzica-item:hover {
+	background-color: #e8e7e7;
 }
 
 .site-main .muzica-container .muzica-item p {
@@ -852,6 +863,7 @@ textarea {
 .site-main .muzica-container .muzica-item .title {
 	font-weight: bold;
 	font-size: 1.6rem;
+	color: #911667;
 }
 
 .site-main .muzica-container .muzica-item .date {

@@ -25,6 +25,11 @@
 .site-main {
 	margin: 1rem;
 
+	.page-title {
+		text-transform: uppercase;
+		border-bottom: 2px solid black;
+	}
+
 	.muzica-container {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -32,7 +37,13 @@
 		.muzica-item {
 			background-color: #f6f4f4;
 			width: fit-content;			
-			margin-bottom: 2rem;
+			margin-bottom: 2rem;			
+			padding: 0.5rem;
+			border-radius: 7px;
+
+			&:hover {
+				background-color: #e8e7e7;
+			}
 
 			p {
 				margin: 0;
@@ -41,6 +52,7 @@
 			.title {
 				font-weight: bold;
 				font-size: 1.6rem;
+				color: #911667;
 			}
 	
 			.date {
