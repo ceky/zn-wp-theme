@@ -522,7 +522,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-	color: #34ae72;
+	color: #99cecd;
 }
 
 a:focus {
@@ -675,7 +675,14 @@ textarea {
 }
 
 .main-navigation a:hover, .main-navigation a:focus, .main-navigation a:active {
-	color: #34ae72;
+	color: #99cecd;
+}
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a {
+	color: #99cecd;
 }
 
 /* Small menu. */
@@ -743,7 +750,7 @@ textarea {
 }
 
 .site-header .site-branding .zn-info-header a:hover, .site-header .site-branding .zn-info-header a:focus, .site-header .site-branding .zn-info-header a:active {
-	color: #34ae72;
+	color: #99cecd;
 }
 
 .site-header .site-branding .zn-info-header p {
@@ -774,7 +781,7 @@ textarea {
 }
 
 .site-footer .social-media-container li a:hover, .site-footer .social-media-container li a:focus, .site-footer .social-media-container li a:active {
-	color: #34ae72;
+	color: #99cecd;
 }
 
 .site-footer #top_menu {
@@ -784,6 +791,7 @@ textarea {
 	margin: 0;
 	margin-bottom: 1rem;
 	padding: 0;
+	flex-wrap: wrap;
 }
 
 .site-footer #top_menu li {
@@ -795,7 +803,7 @@ textarea {
 }
 
 .site-footer #top_menu li a:hover, .site-footer #top_menu li a:focus, .site-footer #top_menu li a:active {
-	color: #34ae72;
+	color: #99cecd;
 }
 
 .site-footer .copyright {
@@ -835,50 +843,60 @@ textarea {
 }
 
 .site-main .page-title {
-	text-transform: uppercase;
-	border-bottom: 2px solid black;
+	color: #023f3e;
+	border-bottom: 2px solid #023f3e;
 }
 
-.site-main .muzica-container {
+.site-main .event-grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	column-gap: 30px;
 }
 
-.site-main .muzica-container .muzica-item {
-	background-color: #f6f4f4;
+.site-main .event-grid-container .event-grid-item {
+	background-color: #ecf7f7;
 	width: fit-content;
 	margin-bottom: 2rem;
 	padding: 0.5rem;
-	border-radius: 7px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px 0px #b6bebd;
 }
 
-.site-main .muzica-container .muzica-item:hover {
-	background-color: #e8e7e7;
+.site-main .event-grid-container .event-grid-item:hover {
+	background-color: #def1f1;
 }
 
-.site-main .muzica-container .muzica-item p {
+.site-main .event-grid-container .event-grid-item p {
 	margin: 0;
 }
 
-.site-main .muzica-container .muzica-item .title {
+.site-main .event-grid-container .event-grid-item .title {
 	font-weight: bold;
-	font-size: 1.6rem;
-	color: #911667;
+	font-size: 1.4rem;
+	color: #023f3e;
 }
 
-.site-main .muzica-container .muzica-item .date {
-	color: #666666;
+.site-main .event-grid-container .event-grid-item .date {
+	color: #08807d;
 	font-weight: bold;
+	font-size: 0.8rem;
+	margin-bottom: 4px;
 }
 
-.site-main .muzica-container .muzica-item .location {
+.site-main .event-grid-container .event-grid-item .location {
 	font-size: 0.8rem;
 	margin-bottom: 0.5rem;
-	color: #666666;
+	color: #212121;
+	background-color: #99cecd;
+	width: fit-content;
+	padding: 1px 5px;
+	border-radius: 10px;
 }
 
-.site-main .muzica-container .muzica-item .attachment-post-thumbnail {
-	width: 300px;
+.site-main .event-grid-container .event-grid-item .attachment-post-thumbnail {
+	max-width: 304px;
+	max-height: 180px;
+	object-fit: cover;
 }
 
 /* Comments

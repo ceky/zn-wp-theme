@@ -26,23 +26,25 @@
 	margin: 1rem;
 
 	.page-title {
-		text-transform: uppercase;
-		border-bottom: 2px solid black;
+		color: #023f3e;
+		border-bottom: 2px solid #023f3e;
 	}
 
-	.muzica-container {
+	.event-grid-container {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		column-gap: 30px;
 
-		.muzica-item {
-			background-color: #f6f4f4;
+		.event-grid-item {
+			background-color: #ecf7f7;
 			width: fit-content;			
 			margin-bottom: 2rem;			
 			padding: 0.5rem;
-			border-radius: 7px;
+			border-radius: 4px;
+			box-shadow: 1px 1px 4px 0px #b6bebd;
 
 			&:hover {
-				background-color: #e8e7e7;
+				background-color: #def1f1;
 			}
 
 			p {
@@ -51,23 +53,31 @@
 	
 			.title {
 				font-weight: bold;
-				font-size: 1.6rem;
-				color: #911667;
+				font-size: 1.4rem;
+				color: #023f3e;;
 			}
 	
 			.date {
-				color: #666666;
+				color: #08807d;
 				font-weight: bold;
+				font-size: 0.8rem;
+				margin-bottom: 4px;
 			}
 
 			.location {
 				font-size: 0.8rem;
 				margin-bottom: 0.5rem;
-				color: #666666;
+				color: #212121;
+				background-color: #99cecd;
+				width: fit-content;
+				padding: 1px 5px;
+				border-radius: 10px;
 			}
 			
 			.attachment-post-thumbnail {
-				width: 300px;		
+				max-width: 304px;
+				max-height: 180px;
+				object-fit: cover;	
 			}
 		}		
 	}

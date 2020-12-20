@@ -10,7 +10,7 @@
 ?>
 
 
-<div id="post-<?php the_ID(); ?>" class="muzica-item" <?php post_class(); ?>>
+<div id="post-<?php the_ID(); ?>" class="event-grid-item" <?php post_class(); ?>>
 
 	<?php zilele_nordului_post_thumbnail(); ?>
 	<a href="<?php the_permalink(); ?>">
