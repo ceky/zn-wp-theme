@@ -36,7 +36,7 @@
 		column-gap: 30px;
 
 		.event-grid-item {
-			background-color: #ecf7f7;
+			background-color: #f3f9f9;
 			width: fit-content;			
 			margin-bottom: 2rem;			
 			padding: 0.5rem;
@@ -44,7 +44,11 @@
 			box-shadow: 1px 1px 4px 0px #b6bebd;
 
 			&:hover {
-				background-color: #def1f1;
+				background-color: #d6e8e8;
+
+				.attachment-post-thumbnail {
+					transform: scale(1.04);
+				}
 			}
 
 			p {
@@ -58,10 +62,11 @@
 			}
 	
 			.date {
-				color: #08807d;
+				color: #154e4f;
 				font-weight: bold;
 				font-size: 0.8rem;
 				margin-bottom: 4px;
+				padding: 0px 4px;
 			}
 
 			.location {
@@ -78,7 +83,14 @@
 				max-width: 304px;
 				max-height: 180px;
 				object-fit: cover;	
+				transition: all .8s ease;
 			}
 		}		
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.site-main {
+		margin: 1rem 170px;
 	}
 }
